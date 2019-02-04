@@ -4,7 +4,7 @@ readme = open('README.rst').read()
 
 setup(
     name='django-quiz-app',
-    version='0.5.1',
+    version='0.6.0',
     packages=['quiz', 'multichoice', 'true_false', 'essay', 'quiz.templatetags'],
     include_package_data=True,
     license='MIT License',
@@ -29,7 +29,7 @@ setup(
     install_requires=[
         'django-model-utils == 2.0.3',
         'Django >= 1.5.1',
-        'Pillow == 2.5.0'
+        'Pillow >= 2.5.0'
     ],
     test_suite='runtests.runtests'
 )
